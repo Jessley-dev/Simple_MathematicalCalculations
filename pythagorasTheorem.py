@@ -16,7 +16,7 @@ while True:
             
             if b_hy > 0 and h_hy > 0:
                 hy_sol =  np.sqrt (b_hy**2 + h_hy**2)
-                print("The hypothenus is: ",hy_sol)
+                print(f"The hypothenus is: {hy_sol:.3}")
             
             else:
                 print("Both values must be greater than zero")
@@ -33,7 +33,7 @@ while True:
             
             if hy_b > h_b > 0:
                 b_sol = np.sqrt (hy_b**2 - h_b**2)
-                print("The base is: ",b_sol)
+                print(f"The base is: {b_sol:.3}")
                 
             else:
                 print("Hypothenus must be greater than height and height must be greater than zero")
@@ -50,7 +50,7 @@ while True:
             
             if hy_h > b_h > 0:
                 h_sol = np.sqrt (hy_h**2 - b_h**2)
-                print("The height is: ",h_sol)
+                print(f"The height is: {h_sol:.3}")
 
             else:
                 print("Hypothenus must be greater than base and base must be greater  than zero")
